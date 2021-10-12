@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" class="h-full">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
     <link rel="stylesheet" href="style.css">
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet"/>
-  </head>
-  <body class="flex flex-col min-h-full">
-      <nav class="flex flex-row items-center justify-between p-5 bg-yellow-500">
-          <span class="text-white font-bold text-4xl px-2 mx-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a href="/">RASYID</a></span>
-          <ul class="flex flex-row text-white font-normal text-lg">
-              <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a href="#about">Tentang</a></li>
-              <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a href="#experience">Pengalaman</a></li>
-              <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a href="#work">Projects</a></li>
-          </ul>
-      </nav>
-      <header>
-          <div class="jumbotron flex flex-col items-center justify-center h-screen bg-center bg-cover bg-no-repeat">
-              <h1 class="text-white text-6xl font-normal">RASYID NAFSYARIE</h1>
-              <p class="text-white text-5xl font-thin">Web Portofolio</p>
-          </div>
-      </header>
-      <main>
-          <section id="about">
-              <div class="flex flex-col items-center justify-center px-5 py-8">
-                  <h2 class="text-4xl font-medium my-4">Tentang</h2>
-                  <div class="profile my-4 rounded-full h-56 w-56 bg-center bg-cover bg-no-repeat"></div>
-                  <p class="text-xl font-thin text-center my-4 w-2/4">
-                      Halo, Saya biasa dipanggil Rasyid, Sekarang sedang sekolah jurusan
-                      Rekayasa Perangkat Lunak di SMK Raden Umar Said Kudus.
-                  </p>
-              </div>
-          </section>
-          <section id="experience">
-              <div class="flex flex-col items-center justify-center mx-auto px-5 bg-yellow-100">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="flex flex-col min-h-full">
+    <nav class="flex flex-row items-center justify-between p-5 bg-yellow-500 filter drop-shadow-md md:drop-shadow-xl">
+        <span
+            class="text-white font-bold text-4xl px-2 mx-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a
+                href="/">RASYID</a></span>
+        <ul class="flex flex-row text-white font-normal text-lg">
+            <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a
+                    href="#about">Tentang</a></li>
+            <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a
+                    href="#experience">Pengalaman</a></li>
+            <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a
+                    href="#work">Projects</a></li>
+            <li class="mx-2 p-2 rounded hover:bg-yellow-400 transition duration-500 ease-in-out"><a
+                        href="#sertifikat">Sertifikat</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="jumbotron flex flex-col items-center justify-center h-screen bg-center bg-cover bg-no-repeat">
+            <h1 class="text-white text-3xl md:text-4xl lg:text-6xl font-normal">RASYID NAFSYARIE</h1>
+            <p class="text-white text-2xl md:text-5xl font-thin">Web Portofolio</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="flex flex-col items-center justify-center px-5 py-8">
+                <h2 class="text-4xl font-medium my-4">Tentang</h2>
+                <div class="profile my-4 rounded-full h-48 md:h-56 w-48 md:w-56 bg-center bg-cover bg-no-repeat"></div>
+                <p class="text-xl font-thin text-center my-4 w-2/4">
+                    Halo, Saya biasa dipanggil Rasyid, Sekarang sedang sekolah jurusan
+                    Rekayasa Perangkat Lunak di SMK Raden Umar Said Kudus.
+                </p>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="flex flex-col items-center justify-center mx-auto px-5 bg-yellow-100">
                 <h2 class="text-4xl font-medium my-4">Pengalaman</h2>
                 <p class="text-xl font-thin text-center my-4 w-3/4">
                     Selama satu tahun belajar di RPL , berikut teknologi yang saya pelajari dan saya gunakan.
@@ -63,47 +70,85 @@
                     </span>
                 </div>
             </div>
-          </section>
-          <section id="work">
-              <div class="flex flex-col items-center justify-center mx-auto px-5 py-8">
-                  <h2 class="text-4xl font medium my-4">Projects</h2>
-                  <p class="text-center text-xl font-normal my-2 w-3/4">
+        </section>
+        <section id="work">
+            <div class="flex flex-col items-center justify-center mx-auto px-5 py-8">
+                <h2 class="text-4xl font medium my-4">Projects</h2>
+                <p class="text-center text-xl font-normal my-2 w-3/4">
                     Berikut UI/UX yang saya buat selama belajar di RPL SMK Raden Umar Said
-                  </p>
-                  <div class="grid gap-8 grid-cols-1 my-8">
-                      <div class="grid gap-16 grid-cols-2 mx-12 my-4">
-                              <img class="transform hover:scale-110 transition duration-500 ease-in-out" src="./assets/work1.png" alt="">
-                          <div>
+                </p>
+                <div class="grid gap-8 grid-cols-1 my-8">
+                    <div class="grid gap-16 grid-cols-2 mx-12 my-4">
+                        <img class="transform hover:scale-110 transition duration-500 ease-in-out"
+                            src="./assets/work1.png" alt="">
+                        <div>
                             <h3 class="text-left text-2xl font-medium">Ayo Makan Apps</h3>
-                            <p class="text-left text-lg">Ini adalah tugas PAS android studio, saya membuat design ini menggunakan figma,
-                               aplikasi ini digunakan untuk mencari restoran
+                            <p class="text-left text-lg">Ini adalah tugas PAS android studio, saya membuat design ini
+                                menggunakan figma,
+                                aplikasi ini digunakan untuk mencari restoran
                             </p>
                         </div>
-                      </div>
-                      <div class="grid gap-8 grid-cols-1 my-8">
+                    </div>
+                    <div class="grid gap-8 grid-cols-1 my-8">
                         <div class="grid gap-16 grid-cols-2 mx-12 my-4">
-                                <img class="transform hover:scale-110 transition duration-500 ease-in-out" src="./assets/work2.svg" alt="">
+                            <img class="transform hover:scale-110 transition duration-500 ease-in-out"
+                                src="./assets/work2.svg" alt="">
                             <div>
-                              <h3 class="text-left text-2xl font-medium">Login Page</h3>
-                              <p class="text-left text-lg">
-                                  Login Page berikut ada dua yaitu Login Web dan Mobile, dibuat ketika sedang produktif.
-                              </p>
-                          </div>
+                                <h3 class="text-left text-2xl font-medium">Login Page</h3>
+                                <p class="text-left text-lg">
+                                    Login Page berikut ada dua yaitu Login Web dan Mobile, dibuat ketika sedang
+                                    produktif.
+                                </p>
+                            </div>
                         </div>
                         <div class="grid gap-8 grid-cols-1 my-8">
                             <div class="grid gap-16 grid-cols-2 mx-12 my-4">
-                                    <img class="transform hover:scale-110 transition duration-500 ease-in-out" src="./assets/work3.svg" alt="">
+                                <img class="transform hover:scale-110 transition duration-500 ease-in-out"
+                                    src="./assets/work3.svg" alt="">
                                 <div>
-                                  <h3 class="text-left text-2xl font-medium">Landing Page Pepsi</h3>
-                                  <p class="text-left text-lg">
-                                      Ini merupakan landing page Pepsi yang saya design ulang menggunakan figma
-                                  </p>
-                              </div>
+                                    <h3 class="text-left text-2xl font-medium">Landing Page Pepsi</h3>
+                                    <p class="text-left text-lg">
+                                        Ini merupakan landing page Pepsi yang saya design ulang menggunakan figma
+                                    </p>
+                                </div>
                             </div>
-                  </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="sertifikat">
+            <div class="flex flex-col items-center justify-center mx-auto px-5 bg-yellow-50">
+                <h2 class="text-4xl font-medium my-4">Sertifikat</h2>
+                <div class="grid gap-24 grid-cols-3 my-8">
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/ae1844ee759f169faf226934346d9f0ecourse_certificate_2f673247qj1l8o_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/aa17a1c237a3dcd596651e86f8f4c527course_certificate_ad6d8efcqj35mp_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/a9e53de41f8cae01a21f3f08f9e52c18course_certificate_e110b6e2qjsaib_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/1b9ab33b3261bc31cf3277a5be093cd8course_certificate_eda14af1qk4oaa_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/33b496740b65f082d1563ee474bddecdcourse_certificate_44f582d2qly1ct_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/5d53d1dd54266d0ab06912979c04e180course_certificate_318a974cqkcgen_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/e6e598532f6b6890f8b91cc70ede1728course_certificate_478a131dqjit1g_page-0001.jpg" alt="html 5">
+                    </span>
+                    <span class="h-96 w-96 rounded-md">
+                        <img src="./assets/UC-072b504e-e67b-4177-ac62-bb16dff08305_page-0001.jpg" alt="html 5">
+                    </span>
                 </div>
-          </section>
-      </main>
-      <footer class="text-white text-center font-medium mt-auto p-5 bg-yellow-500">© 2021 Rasyid Nafsyarie</footer>
-  </body>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white text-center font-medium mt-auto p-5 bg-yellow-500">© 2021 Rasyid Nafsyarie</footer>
+</body>
+
 </html>
